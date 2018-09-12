@@ -1,0 +1,25 @@
+@import "globals";
+
+html,
+body,
+div#react-container,
+div.app {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+h2, label, th {
+  margin: 0;
+  color:maroon
+}
+
+h2 {
+    text-align: center
+}
+
+div.app {
+ background-image:url('http://localhost:3000/assets/img/backgroundImage.jpg');
+ background-size: cover;
+ background-position: center;
+}
